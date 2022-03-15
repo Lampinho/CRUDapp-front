@@ -1,5 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+#Este archivo nos permite configurar que elemenos queremos mostrar en GIT y en  el IDE si configuramos hide VCS Ingonerd files o utilizando Ignore name en el configuracion del IDE
+
 # Compiled output
 /dist
 /tmp

@@ -1,13 +1,33 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>ClientesApp</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="utf-8">
+    <title>ClientesApp</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!--Aqui añadimos bootstrap. O como en nuestro caso referenciamos al archivo de la carpeta assets desde angular.json-->
+    <!--link rel="stylesheet" href="assets\css\bootstrap.min.css"-->
 </head>
+
 <body>
-  <app-root></app-root>
+
+    <app-root></app-root>
+    <!--selector componente principal app.components.ts-->
+
+    <!-- linkamos des angular.json a los archivos de la carpeta asset: recursos compartidos del proyecto
+
+        Otra opcion sería ejecutar utilizar el node package manager con comando CLI:  npm install bootstrap@4.0.0-beta.2 jquery popper.js --save
+        se instala en package.json y guarda las librerias en la carpeta node_modules. despues lo referenciariamos en angular.json
+
+    <script src="assets\js\jquery.slim.min.js"></script>
+    <script src="assets\js\popper.min.js "></script>
+    <script src="assets\js\bootstrap.min.js"></script>
+    <script src="assets\js\bootstrap.bundle.min.js"></script>
+-->
+
 </body>
+
 </html>
